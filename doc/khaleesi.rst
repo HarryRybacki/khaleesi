@@ -2,9 +2,9 @@ Using Khaleesi
 ==============
 
 Khaleesi is an ansible based deployment tool Red Hat Openstack CI is using for
-automation. In order to work, khaleesi need a configuration file which is
-provided by khaleesi-settings project. Khaleesi-settings provide the config
-file using ksgen tool, located in khaleesi project.
+automation. In order to work, khaleesi needs a configuration file which is
+provided by the khaleesi-settings project. Khaleesi-settings provides a config
+file using the ksgen tool, located in khaleesi project.
 
     https://github.com/redhat-openstack/khaleesi-settings
     or
@@ -19,11 +19,11 @@ Fedora21+ with Python 2.7. For running jobs,
 khaleesi requires a dedicated RHEL7 or F21 Jenkins slave. We do have an ansible
 playbook that sets up a slave, see :ref:`jenkins-slave`.
 
-.. WARNING:: Do not use the root user, as these instructions assumes that you
-   are a normal user and uses venv. Being root may shadow some of the errors
-   you may make like forgetting to source venv and pip install ansible.
+.. WARNING:: Do not use the root user. These instructions assume that you
+   are a normal user and uses venv. Being root may shadow some errors
+   you may make such as forgetting to source venv and pip install ansible.
 
-Update your system, install git and reboot::
+Update your system, install git, and reboot::
 
     sudo yum -y update && sudo yum -y install git && sudo reboot
 
