@@ -203,7 +203,7 @@ Generate the configuration with the following command::
         ksgen_settings.yml
 
 .. Note:: The "base_dir" key is defined by either where you execute ksgen from or by the $WORKSPACE
-environment variable.  The base_dir value should point to the directory where khaleesi and khaleesi-settings have been cloned.
+    environment variable.  The base_dir value should point to the directory where khaleesi and khaleesi-settings have been cloned.
 
 The result is a YAML file collated from all the small YAML snippets from
 ``khaleesi-settings/settings``. All the options are quite self-explanatory and
