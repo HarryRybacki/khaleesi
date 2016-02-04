@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# khaleesi-settings documentation documentation build configuration file, created by
-# sphinx-quickstart on Thu Aug 21 14:53:16 2014.
+# Khaleesi documentation build configuration file, created by
+# sphinx-quickstart on Thu Feb  4 10:39:09 2016.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -43,8 +43,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'khaleesi'
-copyright = u'2015, Red Hat RDO CI Team'
+project = u'Khaleesi'
+copyright = u'2016, contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -176,7 +176,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'khaleesi-settingsdocumentationdoc'
+htmlhelp_basename = 'Khaleesidoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -196,8 +196,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'khaleesi-settings.tex', u'khaleesi-settings documentation',
-   u'RDO CI team', 'manual'),
+  ('index', 'Khaleesi.tex', u'Khaleesi Documentation',
+   u'contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -226,8 +226,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'khaleesi-settings', u'khaleesi-settings documentation',
-     [u'RDO CI team'], 1)
+    ('index', 'khaleesi', u'Khaleesi Documentation',
+     [u'contributors'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -240,8 +240,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'khaleesi-settings', u'khaleesi-settings documentation',
-   u'RDO CI team', 'khaleesi-settings', 'One line description of project.',
+  ('index', 'Khaleesi', u'Khaleesi Documentation',
+   u'contributors', 'Khaleesi', 'One line description of project.',
    'Miscellaneous'),
 ]
 
